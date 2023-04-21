@@ -448,3 +448,6 @@ def test_pool_bp():
     mpl.backward(a, b)
     print('input array:\n%s\nsensitivity array:\n%s\ndelta array:\n%s' % (
         a, b, mpl.delta_array))
+
+if __name__ == '__main__':
+    test_pool()
