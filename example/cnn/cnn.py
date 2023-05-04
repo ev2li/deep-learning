@@ -1,4 +1,5 @@
 # -*- coding: UTF-8 -*-
+
 import numpy as np
 from activators import ReluActivator, IdentityActivator
 
