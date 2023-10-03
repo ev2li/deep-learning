@@ -3,7 +3,7 @@ from transformers.models.bert import BertModel
 import torch
 from torch import nn
 
-model_name = "bert-base-uncased"
+model_name = "../../models/bert-base-uncased"
 
 tokenizer = BertTokenizer.from_pretrained(model_name)
 model = BertModel.from_pretrained(model_name, output_hidden_states=True)
