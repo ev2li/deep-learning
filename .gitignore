@@ -1,6 +1,5 @@
 .idea/*
 __pycache__
 .DS_Store
-models/
-images/
-
+example/models/*
+example/images/*
