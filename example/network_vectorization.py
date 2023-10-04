@@ -194,7 +194,7 @@ def train_data_set():
 
 def correct_ratio(network):
     normalizer = Normalizer()
-    correct = 0.0;
+    correct = 0.0
     for i in range(256):
         if normalizer.denorm(network.predict(normalizer.norm(i))) == i:
             correct += 1.0
